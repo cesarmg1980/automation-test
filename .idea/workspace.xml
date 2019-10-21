@@ -3,13 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="34660453-80d3-432f-b3f9-994f33530bc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/backendtest/MLBackendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/backendtest/MLBackendTest.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1SVrkNNOvE1IKvzsKQRmpiD6nVP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -24,6 +30,24 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.MLBackendTest.mlProductsTest">
+    <configuration name="MLBackendTest.mlProductsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backendtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backendtest" />
+      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
+      <option name="METHOD_NAME" value="mlProductsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MLBackendTest.mlProductsTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationtest" />
       <extension name="coverage">
@@ -78,24 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLBackendTest.mlProductsTest (5)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationtest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backendtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backendtest" />
-      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
-      <option name="METHOD_NAME" value="mlProductsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MLBackendTest.mlProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationtest" />
       <extension name="coverage">
@@ -117,10 +123,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MLBackendTest.mlProductsTest" />
-        <item itemvalue="TestNG.MLBackendTest.mlProductsTest (5)" />
         <item itemvalue="TestNG.MLBackendTest.mlProductsTest (4)" />
         <item itemvalue="TestNG.MLBackendTest.mlProductsTest (3)" />
         <item itemvalue="TestNG.MLBackendTest.mlProductsTest (2)" />
+        <item itemvalue="TestNG.MLBackendTest.mlProductsTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +134,13 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34660453-80d3-432f-b3f9-994f33530bc5" name="Default Changelist" comment="" />
+      <created>1571659753665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571659753665</updated>
+    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +148,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
