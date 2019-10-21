@@ -58,11 +58,12 @@ public class MLBackendTest {
         int totalItemsInList = listOfItemsRetrieved.size();
         Assert.assertEquals(pagingItemLimit, totalItemsInList,
                 "Test Failed! List size doesn't match paging limit");
+        System.out.println("----------------------------------------------------");
         System.out.println("Total items retrieved: " + totalItemsRetrieved);
         System.out.println("Paging Limit: " + pagingItemLimit + ", List size: " + totalItemsInList);
 
-        // We get a random item from the list
-        int randItemIndex = getRandomIndexFromList(json.getList("results"));
+        // We get a random int to use it as an index for the items list
+        int randItemIndex = new Random().nextInt(totalItemsInList);
         // We get the necessary properties from the item
         String itemID = json.get("results[" + randItemIndex + "].id");
         String itemTitle = json.get("results[" + randItemIndex + "].title");
@@ -71,13 +72,14 @@ public class MLBackendTest {
         String itemCurrency = json.get("results[" + randItemIndex + "].currency_id");
         boolean itemFreeShipping = json.getBoolean("results[" + randItemIndex + "].shipping.free_shipping");
 
-        System.out.println("Random index= " + randItemIndex +
-                "\nRandom item ID: " + itemID +
-                "\nRandom item Title: " + itemTitle +
+        System.out.println("Random index= " + randItemIndex + ", Random item ID: " + itemID);
+        System.out.println("----------------------------------------------------");
+        System.out.println("Random item Title: " + itemTitle +
                 "\nRandom item Price: " + itemPrice +
                 "\nRandom item Accepts MP: " + itemAcceptsMP +
                 "\nRandom item Currency: " + itemCurrency +
                 "\nRandom item Free Shipping: " + itemFreeShipping);
+
 
         Response respItemSearch = given()
                 .pathParam("id_producto", itemID)
@@ -90,15 +92,37 @@ public class MLBackendTest {
 
         // We get Item response into raw string
         String respItemSearchStr = respItemSearch.asString();
+        System.out.println("----------------------------------------------------");
         System.out.println(respItemSearchStr);
+        System.out.println("----------------------------------------------------");
 
         // We convert the raw string into Json
-        JsonPath jsonItem = new JsonPath(respProdSearchStr);
-    }
+        JsonPath jsonItem = new JsonPath(respItemSearchStr);
+        String selectedItemName = jsonItem.getString("title");
+        float selectedItemPrice = jsonItem.getFloat("price");
+        boolean selectedItemAcceptsMP = jsonItem.getBoolean("accepts_mercadopago");
+        String selectedItemCurrency = jsonItem.getString("currency_id");
+        boolean selectedItemFreeShipping = jsonItem.getBoolean("shipping.free_shipping");
 
-    public int getRandomIndexFromList(List<Object> list) {
-        return new Random().nextInt(list.size());
-    }
+        System.out.println("Selected item Title: " + selectedItemName +
+                "\nSelected item Price: " + selectedItemPrice +
+                "\nSelected item Accepts MP: " + selectedItemAcceptsMP +
+                "\nSelected item Currency: " + selectedItemCurrency +
+                "\nSelected item Free Shipping: " + selectedItemFreeShipping);
+        System.out.println("----------------------------------------------------");
 
+        if(!(itemTitle.equals(selectedItemName) && itemPrice == selectedItemPrice && itemAcceptsMP == selectedItemAcceptsMP
+                && itemCurrency.equals(selectedItemCurrency) && itemFreeShipping == selectedItemFreeShipping)) {
+            Assert.fail("Test failed! Properties mismatch!" +
+                    "\nRandom Item Title: " + itemTitle + ", Selected Item Title: " + selectedItemName +
+                    "\nRandom Item Price: " + itemPrice + ", Selected Item Price: " + selectedItemPrice +
+                    "\nRandom Item Accepts MP: " + itemAcceptsMP + ", Selected Item Accepts MP: " + selectedItemAcceptsMP +
+                    "\nRandom Item Currency: " + itemCurrency + ", Selected Item Currency: " + selectedItemCurrency +
+                    "\nRandom Item Free Shipping: " + itemFreeShipping + ", Selected Item Free Shipping: " + selectedItemFreeShipping);
+        } else {
+            System.out.println("Test Result Successfull, all items match!");
+        }
+    }
 }
+
 
