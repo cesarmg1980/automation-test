@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999e7810-c146-4e40-8b09-75f398da2f30" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="5d1c9dfc-7382-4577-bdbe-dfb9be24687e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1STNa9IrhGbLzikX1gMGRvATtnJ" />
+  <component name="ProjectId" id="1SUdZLdVChSPEhSx3il19ppxFFq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,131 +33,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MLBackendTest.mlProductsTest (3)">
-    <configuration name="MLBackendTest.mlProductsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backendtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backendtest" />
-      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
-      <option name="METHOD_NAME" value="mlProductsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MLBackendTest.mlProductsTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backendtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backendtest" />
-      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
-      <option name="METHOD_NAME" value="mlProductsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MLBackendTest.mlProductsTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backendtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backendtest" />
-      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
-      <option name="METHOD_NAME" value="mlProductsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MLBackendTest.mlProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationtest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backendtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backendtest" />
-      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
-      <option name="METHOD_NAME" value="mlProductsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MLBackendTest.mlTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationtest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backendtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backendtest" />
-      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
-      <option name="METHOD_NAME" value="mlTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.MLBackendTest.mlProductsTest (3)" />
-        <item itemvalue="TestNG.MLBackendTest.mlProductsTest (2)" />
-        <item itemvalue="TestNG.MLBackendTest.mlProductsTest (1)" />
-        <item itemvalue="TestNG.MLBackendTest.mlProductsTest" />
-        <item itemvalue="TestNG.MLBackendTest.mlTest" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="999e7810-c146-4e40-8b09-75f398da2f30" name="Default Changelist" comment="" />
-      <created>1571583686787</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1571583686787</updated>
-    </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
