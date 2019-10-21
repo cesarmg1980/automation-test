@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999e7810-c146-4e40-8b09-75f398da2f30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="999e7810-c146-4e40-8b09-75f398da2f30" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,16 +43,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MLBackendTest.mlProductsTest">
-    <configuration name="MLBackendTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
-      <module name="automationtest" />
+  <component name="RunManager" selected="TestNG.MLBackendTest.mlProductsTest (3)">
+    <configuration name="MLBackendTest.mlProductsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="backendtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="backendtest" />
+      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
+      <option name="METHOD_NAME" value="mlProductsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MLBackendTest.mlProductsTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backendtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backendtest" />
+      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
+      <option name="METHOD_NAME" value="mlProductsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MLBackendTest.mlProductsTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backendtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="backendtest" />
+      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
+      <option name="METHOD_NAME" value="mlProductsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,9 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MLBackendTest.mlProductsTest (3)" />
+        <item itemvalue="TestNG.MLBackendTest.mlProductsTest (2)" />
+        <item itemvalue="TestNG.MLBackendTest.mlProductsTest (1)" />
         <item itemvalue="TestNG.MLBackendTest.mlProductsTest" />
         <item itemvalue="TestNG.MLBackendTest.mlTest" />
-        <item itemvalue="Application.MLBackendTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +162,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
