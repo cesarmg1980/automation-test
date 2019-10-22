@@ -4,13 +4,25 @@
     <list default="true" id="34660453-80d3-432f-b3f9-994f33530bc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/backendtest/MLBackendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/backendtest/MLBackendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EmptyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EmptyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/backendtest/MLBackendTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/backendtest/MLBackendTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,25 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MLBackendTest.mlProductsTest (5)">
-    <configuration name="MLBackendTest.mlProductsTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationtest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backendtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="backendtest" />
-      <option name="MAIN_CLASS_NAME" value="backendtest.MLBackendTest" />
-      <option name="METHOD_NAME" value="mlProductsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.MLFrontEndTest.basicTest">
     <configuration name="MLBackendTest.mlProductsTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationtest" />
       <extension name="coverage">
@@ -130,13 +124,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MLFrontEndTest.basicTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frontendtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="frontendtest" />
+      <option name="MAIN_CLASS_NAME" value="frontendtest.MLFrontEndTest" />
+      <option name="METHOD_NAME" value="basicTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MLFrontEndTest.basicTest" />
         <item itemvalue="TestNG.MLBackendTest.mlProductsTest (5)" />
         <item itemvalue="TestNG.MLBackendTest.mlProductsTest" />
         <item itemvalue="TestNG.MLBackendTest.mlProductsTest (4)" />
         <item itemvalue="TestNG.MLBackendTest.mlProductsTest (3)" />
-        <item itemvalue="TestNG.MLBackendTest.mlProductsTest (2)" />
       </list>
     </recent_temporary>
   </component>
