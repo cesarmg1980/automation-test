@@ -2,8 +2,11 @@ package frontendtest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -24,7 +27,7 @@ public abstract class BaseWebTest {
         System.setProperty("webdriver.chrome.driver", this.properties.getProperty("chrome.driver.path"));
 
         // We instantiate a new chromedriver
-        this.driver = new ChromeDriver();
+        this.driver = new ChromeDriver(new ChromeOptions());
         driver.manage().window().maximize();
     }
 

@@ -11,15 +11,10 @@ public class MLHomePage extends BasePage {
         super(driver);
     }
 
-    @FindBy(how = How.CLASS_NAME, using = "nav-menu-categories-link")
-    WebElement categories;
+    public NavBarPage navbar = new NavBarPage(getDriver());
 
     public MLHomePage goToMLHomePage(String url) {
         getDriver().get(url);
         return this;
-    }
-
-    public void clickOnCategories() {
-        click(categories);
     }
 }

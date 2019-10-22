@@ -3,8 +3,10 @@ package frontend;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.testng.Assert;
 
 
 import java.time.Duration;
@@ -34,7 +36,11 @@ public abstract class BasePage {
     }
 
     public void click(WebElement element) {
-        wait(DEFAULT_ELEMENT_WAIT_TIMEOUT).until(elementToBeClickable(element)).click();
+        try {
+            wait(DEFAULT_ELEMENT_WAIT_TIMEOUT).until(elementToBeClickable(element)).click();
+        } catch (Exception e) {
+            Assert.fail("Test Failed! Element couldn't be found " + e.getMessage());
+        }
     }
 
     public boolean elementExist(WebElement elem, int timeout) {
@@ -44,5 +50,11 @@ public abstract class BasePage {
             return false;
         }
         return true;
+    }
+
+    public void hoverOverElement(WebElement element) {
+        Actions action = new Actions(getDriver());
+        wait(DEFAULT_ELEMENT_WAIT_TIMEOUT).until(visibilityOf(element));
+        action.moveToElement(element).perform();
     }
 }
