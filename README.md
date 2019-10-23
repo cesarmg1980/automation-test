@@ -9,5 +9,7 @@ Pasos para su ejecucion:
 4) Ejecutar los test
 ----------------------------------------------------------
 # Como correr los test
-
 1) abrir la terminal desde IntelliJ y ejecutar el comando "mvn test".
+----------------------------------------------------------
+# Nota Importante
+Correr la presente suite bajo Windows 10 y la ultima version de Chrome.
