@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34660453-80d3-432f-b3f9-994f33530bc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frontend/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frontend/MLHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frontend/MLHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/backendtest/MLBackendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/backendtest/MLBackendTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frontendtest/BaseWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frontendtest/BaseWebTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/frontendtest/MLFrontEndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/frontendtest/MLFrontEndTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/frontend/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/frontend/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/frontend/MLHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/frontend/MLHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/backendtest/MLBackendTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/backendtest/MLBackendTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/frontendtest/BaseWebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/frontendtest/BaseWebTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/frontendtest/MLFrontEndTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/frontendtest/MLFrontEndTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MLFrontEndTest">
+  <component name="RunManager" selected="TestNG.MLFrontEndTest.climatizacionTest">
     <configuration name="MLFrontEndTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test" />
       <extension name="coverage">
@@ -75,24 +63,6 @@
       <option name="PACKAGE_NAME" value="frontendtest" />
       <option name="MAIN_CLASS_NAME" value="frontendtest.MLFrontEndTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MLFrontEndTest.basicTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="frontendtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="frontendtest" />
-      <option name="MAIN_CLASS_NAME" value="frontendtest.MLFrontEndTest" />
-      <option name="METHOD_NAME" value="basicTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -153,13 +123,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MLFrontEndTest.singleItemTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frontendtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="frontendtest" />
+      <option name="MAIN_CLASS_NAME" value="frontendtest.MLFrontEndTest" />
+      <option name="METHOD_NAME" value="singleItemTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MLFrontEndTest.climatizacionTest" />
+        <item itemvalue="TestNG.MLFrontEndTest.singleItemTest" />
         <item itemvalue="TestNG.MLFrontEndTest" />
         <item itemvalue="TestNG.MLFrontEndTest.celularesSmartphonesTest" />
-        <item itemvalue="TestNG.MLFrontEndTest.climatizacionTest" />
         <item itemvalue="TestNG.MLFrontEndTest.categoriesTest" />
-        <item itemvalue="TestNG.MLFrontEndTest.basicTest (1)" />
       </list>
     </recent_temporary>
   </component>

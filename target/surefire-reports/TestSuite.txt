@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 85.328 sec <<< FAILURE!
+perfumesImportadosTest(frontendtest.MLFrontEndTest)  Time elapsed: 1.564 sec  <<< FAILURE!
+java.lang.AssertionError: Test Failed! Element couldn't be found no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'Perfumes Importados')]"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'OZARG008', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\CESAR~1.GIU\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:53438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b95cd62e7af7ce25fe3d3e9f9467b4ad
+*** Element info: {Using=xpath, value=//a[contains(.,'Perfumes Importados')]}
+	at org.testng.Assert.fail(Assert.java:97)
+	at frontend.BasePage.click(BasePage.java:44)
+	at frontend.NavBarPage.goToPerfumesImportados(NavBarPage.java:66)
+	at frontendtest.MLFrontEndTest.perfumesImportadosTest(MLFrontEndTest.java:59)
+
